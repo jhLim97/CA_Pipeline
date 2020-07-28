@@ -99,9 +99,7 @@ int main(void)
 		pc = pc + 4;
 	}
 	*/
-
-
-
+	
 	while (1)
 	{
 		scanf("%x", &inst);
@@ -110,9 +108,6 @@ int main(void)
 		mem[pc] = inst;
 		pc = pc + 4;
 	}
-
-
-
 
 	/**************************************/
 
